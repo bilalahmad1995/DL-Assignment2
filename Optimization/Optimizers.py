@@ -4,5 +4,5 @@ class Sgd:
         self.learning_rate = learning_rate
 # Ti implement basic gradient descent update scheme
     def calculate_update(self, weight_tensor, gradient_tensor):
-        updated_weight = weight_tensor - self.learing_rate * gradient_tensor
+        updated_weight = weight_tensor - self.learning_rate * gradient_tensor
         return updated_weight
